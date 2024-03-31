@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Useref from "./Useref";
 
 function App() {
   const [counter, setCounter] = useState(5);
@@ -57,6 +58,7 @@ useEffect(() => {
       <button onClick={addValue}>Add value</button>
       <br />
       <button onClick={removeValue}>remove value</button>
+      <Useref/>
     </>
   );
 }
